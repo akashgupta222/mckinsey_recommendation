@@ -8,7 +8,7 @@ Approach:
 4. This model was optimsed first. The size of embedding, iteration and window size was tuned. (Gave me a decent leaderboard score)
 5. Now, I built a GRU network which predicted the next challenge given the 10 challenges a user has solved. 
 6. The target variable was the list of challenges solved on 11th,12th,13th place. 
-7. THe train data samples were duplicated 3 times ( 1 each for 11th, 12th, 13th)
+7. The train data samples were duplicated 3 times ( 1 each for 11th, 12th, 13th)
 8. Sample weights were given to each sample and the samples in which target was 11th challenge, were given more importance.  
 9. The word embeddings trained from word2vec were fed into the GRU. 
 10. The GRU was trained for different sets of training data 
