@@ -1,5 +1,5 @@
 # mckinsey_recommendation
-Solution for mckinsey recommendation challenge held on analyticsvidhya. 
+Solution for mckinsey recommendation challenge held on analyticsvidhya (3rd rank)
 
 Approach: 
 1. Thought of it as a problem where a sequence of words used to predict the next word (like in time series) or similar words (like in market basket analysis)
